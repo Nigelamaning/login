@@ -1,0 +1,105 @@
+body, html {
+	margin: 0;
+	padding: 0;
+
+}
+
+
+
+.section-2 {
+	background-image: url("images/max-bender-572807-unsplash.jpg");
+	background-position: left;
+	background-size: 50% 100%;
+	background-repeat: no-repeat;
+	height: 805px;
+	width: auto;
+}
+
+form {
+	/*border: 1px solid black;*/
+	margin-right: 110px;
+	margin-top: 200px; 
+
+
+}
+
+form h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: underline;
+}
+
+form a {
+	margin-left: 230px;
+	color: black
+}
+
+label {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 0.85em;
+	padding-top: 50px;
+
+}
+
+.section-2 form {
+	float: right;
+	width: 35%;
+	height: auto;	
+	
+}
+
+input {
+	width: 100%;
+	
+}
+
+input[type="submit"] {
+	width: 30%;
+	margin-top: 50px;
+	margin-left: 180px;
+	background-color: #7ac5ff;
+	height: 35px;
+	color: white;
+	border: none;
+	border-radius: 2px;
+
+
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #64b5f4;
+}
+
+img {
+	background-size: cover;
+	width: auto;
+	height: 825px;
+}
+
+.header-strip {
+	height: 40px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 6px; 
+	font-weight: 300;
+	letter-spacing: 7px;
+}
+
+
+.welcome-title {
+	font-family: 'Amita', cursive;
+	text-align: center;
+	margin-top: 270px;
+	margin-left: 20px;
+	color: white;
+	letter-spacing: 7px;
+}
+
+span {
+	color: gold;
+}
